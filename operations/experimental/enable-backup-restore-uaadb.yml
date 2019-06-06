@@ -1,0 +1,4 @@
+- type: replace
+  path: /instance_groups/name=backup-restore/jobs/name=bbr-uaadb/properties?
+  value:
+    release_level_backup: true
